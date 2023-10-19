@@ -18,7 +18,7 @@ def train(train_args: TrainArgument):
 
 
 def main(_):
-    gin_template.parse_and_log_config()
+    gin_template.parse_and_print_config()
     train()
 
 

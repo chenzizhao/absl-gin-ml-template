@@ -1,8 +1,6 @@
+import dataclasses
 
 
-from dataclasses import dataclass
-
-
-@dataclass
+@dataclasses.dataclass
 class TrainArgument:
     output_dir: str
